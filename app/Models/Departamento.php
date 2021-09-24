@@ -23,6 +23,7 @@ class Departamento extends Model
     ];
 
     protected $perPage = 20;
+    protected $table = 'departamento';
 
     /**
      * Attributes that should be mass-assignable.

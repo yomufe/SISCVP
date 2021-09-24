@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RolController;
+use App\Http\Controllers\DepartamentoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +21,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::resource('rol', RolController::class);
+
+Route::resource('departamento', DepartamentoController::class);
 
 Auth::routes();
 
