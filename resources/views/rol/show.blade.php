@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ $rol->name ?? 'Show Rol' }}
+    {{ $rol->name ?? 'Mostrar Rol' }}
 @endsection
 
 @section('content')
@@ -11,10 +11,10 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">Show Rol</span>
+                            <span class="card-title">Mostrar Rol</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('rol.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('rol.index') }}"> Atrás</a>
                         </div>
                     </div>
 
