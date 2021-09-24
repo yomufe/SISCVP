@@ -14,12 +14,16 @@
                             <span class="card-title">Show Rol</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('rols.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('rol.index') }}"> Back</a>
                         </div>
                     </div>
 
                     <div class="card-body">
                         
+                        <div class="form-group">
+                            <strong>Nombre:</strong>
+                            {{ $rol->nombre }}
+                        </div>
 
                     </div>
                 </div>

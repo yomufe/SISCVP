@@ -47,7 +47,7 @@ class RolController extends Controller
 
         $rol = Rol::create($request->all());
 
-        return redirect()->route('rols.index')
+        return redirect()->route('rol.index')
             ->with('success', 'Rol created successfully.');
     }
 
@@ -90,7 +90,7 @@ class RolController extends Controller
 
         $rol->update($request->all());
 
-        return redirect()->route('rols.index')
+        return redirect()->route('rol.index')
             ->with('success', 'Rol updated successfully');
     }
 
@@ -103,7 +103,7 @@ class RolController extends Controller
     {
         $rol = Rol::find($id)->delete();
 
-        return redirect()->route('rols.index')
+        return redirect()->route('rol.index')
             ->with('success', 'Rol deleted successfully');
     }
 }
