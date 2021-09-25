@@ -18,7 +18,7 @@
 
                              <div class="float-right">
                                 <a href="{{ route('rol.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Crear Nuevo Rol') }}
+                                  {{ __('Crear Rol ') }}
                                 </a>
                               </div>
                         </div>

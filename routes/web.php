@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RolController;
 use App\Http\Controllers\DepartamentoController;
+use App\Http\Controllers\PersonaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +24,8 @@ Auth::routes();
 Route::resource('rol', RolController::class);
 
 Route::resource('departamento', DepartamentoController::class);
+
+Route::resource('personas', PersonaController::class);
 
 Auth::routes();
 
